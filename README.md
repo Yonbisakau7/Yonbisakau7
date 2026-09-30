@@ -1,58 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
-  <style>
-    .bg{fill:#050505}
-    .t{font:900 64px 'Courier New',monospace;text-anchor:middle}
-    .main{fill:#fff}
-    .r{fill:#ff0033;opacity:.8;animation:g1 2.5s infinite steps(1)}
-    .c{fill:#00ffe1;opacity:.6;animation:g2 2.5s infinite steps(1)}
-    .sub{font:700 18px 'Courier New',monospace;fill:#ff0033;text-anchor:middle;letter-spacing:4px}
-    .term{font:16px 'Courier New',monospace;fill:#00ff41}
-    .cur{animation:b 1s infinite steps(1)}
-    .scan{fill:url(#s);opacity:.25}
-    .bar{fill:#ff0033;animation:sw 4s infinite linear}
-    @keyframes g1{0%,90%,100%{transform:none}92%{transform:translate(-6px,2px)}95%{transform:translate(4px,-3px)}}
-    @keyframes g2{0%,90%,100%{transform:none}92%{transform:translate(6px,-2px)}96%{transform:translate(-4px,3px)}}
-    @keyframes b{50%{opacity:0}}
-    @keyframes sw{0%{transform:translateY(-10px)}100%{transform:translateY(270px)}}
-  </style>
-  <defs>
-    <pattern id="s" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="#000"/>
-    </pattern>
-  </defs>
-  <rect class="bg" width="900" height="260"/>
-  <text class="term" x="30" y="40">root@fsociety:~# ./hello_friend.sh</text>
-  <text class="t r" x="450" y="140">PEDRO HENRIQUE</text>
-  <text class="t c" x="450" y="140">PEDRO HENRIQUE</text>
-  <text class="t main" x="450" y="140">PEDRO HENRIQUE</text>
-  <text class="sub" x="450" y="185">CYBERSECURITY · SOC · BLUE TEAM</text>
-  <text class="term" x="30" y="235">&gt; hello, friend.<tspan class="cur">█</tspan></text>
-  <rect class="bar" x="0" y="0" width="900" height="2" opacity=".4"/>
-  <rect class="scan" width="900" height="260"/>
-</svg>
-name: profile-art
-on:
-  schedule: [{ cron: "0 3 * * *" }]
-  workflow_dispatch:
-permissions:
-  contents: write
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg?palette=github-dark&color_snake=#ff0033&color_dots=#161b22,#330000,#660000,#aa0011,#ff0033
-      - run: |
-          mkdir -p profile-3d-contrib && cp dist/snake.svg profile-3d-contrib/
-          git config user.name "fsociety-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add -A && git commit -m "update profile art" || true
-          git push
+<div align="center">
+
+<img src="./assets/fsociety.svg" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=900&color=FF0033&center=true&vCenter=true&width=700&lines=%3E+Hello%2C+friend.;%3E+Hello%2C+friend%3F+That's+lame.;%5B+fsociety+%5D+Establishing+secure+connection...;%5B+OK+%5D+Blue+Team+operator+online;%3E+Control+is+an+illusion.+Monitoring+isn't." />
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FF0033)](https://www.linkedin.com/in/pedroybk/)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-000000?style=for-the-badge&logo=tryhackme&logoColor=FF0033)](https://tryhackme.com)
+![Visitors](https://komarev.com/ghpvc/?username=Yonbisakau7&style=for-the-badge&color=ff0033&label=CONNECTIONS)
+
+</div>
+
+```
+┌──(root㉿fsociety)-[~]
+└─# cat /var/log/elliot/journal.txt
+
+  "Hello, friend. Esse perfil não é sobre ataque.
+   É sobre enxergar o que os outros ignoram."
+
+  [+] NAME ........ Pedro Henrique
+  [+] ROLE ........ Cybersecurity Analyst | SOC Operations
+  [+] ORIGIN ...... Brasil
+  [+] STACK ....... Análise e Desenvolvimento de Sistemas
+  [+] BACKGROUND .. Auditoria de Processos → Blue Team
+  [+] SKILL ....... Detectar padrões e anomalias
+  [+] TARGET ...... Security Engineer
+  [+] PHILOSOPHY .. Laboratórios práticos > longos PDFs
+```
+
+## `> ./stage_03/em_progresso`
+
+```diff
++ [RUNNING]  Linux Avançado & Hardening
++ [RUNNING]  Infraestrutura de Redes
++ [RUNNING]  Automação & Scripting
++ [RUNNING]  Threat Intelligence & OSINT
+- [PENDING]  Security Engineer Role ████████░░ 80%
+```
+
+## `> nmap -sV --script=skills pedro-h`
+
+<div align="center">
+
+![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FF0033)
+![Kali](https://img.shields.io/badge/Kali-000?style=for-the-badge&logo=kalilinux&logoColor=FF0033)
+![Rocky](https://img.shields.io/badge/Rocky-000?style=for-the-badge&logo=rockylinux&logoColor=FF0033)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-000?style=for-the-badge&logo=ubuntu&logoColor=FF0033)
+![Bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnubash&logoColor=FF0033)
+![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=FF0033)
+![Cisco](https://img.shields.io/badge/Cisco_IOS-000?style=for-the-badge&logo=cisco&logoColor=FF0033)
+![Wireshark](https://img.shields.io/badge/Wireshark-000?style=for-the-badge&logo=wireshark&logoColor=FF0033)
+![CyberOps](https://img.shields.io/badge/CyberOps-000?style=for-the-badge&logo=cisco&logoColor=FF0033)
+![Threat Hunting](https://img.shields.io/badge/Threat_Hunting-000?style=for-the-badge&logo=virustotal&logoColor=FF0033)
+
+</div>
+
+## `> render --mode=3d ./contributions`
+
+<div align="center">
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+</div>
+
+## `> tail -f /var/log/activity`
+
+<div align="center">
+<img src="https://streak-stats.demolab.com/?user=Yonbisakau7&hide_border=true&background=050505&stroke=FF0033&ring=FF0033&fire=FF0033&currStreakLabel=FFFFFF&sideLabels=FF0033&dates=888888&currStreakNum=FFFFFF&sideNums=FFFFFF" width="60%"/>
+
+<img src="./profile-3d-contrib/snake.svg" width="100%"/>
+</div>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════╗
+║   "In God we trust. All others, we monitor."         ║
+║                                    — fsociety        ║
+╚══════════════════════════════════════════════════════╝
+```
+
+</div>
