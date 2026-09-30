@@ -1,168 +1,58 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:003300,100:0d0d0d&height=210&section=header&text=Pedro%20Henrique&fontSize=65&fontColor=00FF41&animation=fadeIn&fontAlignY=38&desc=◈%20Cybersecurity%20Analyst%20◈%20SOC%20Operations%20◈%20Blue%20Team&descAlignY=58&descSize=17&descColor=88FF88&stroke=00FF41&strokeWidth=1" width="100%"/>
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=2800&pause=1200&color=00FF41&background=00000000&center=true&vCenter=true&width=640&lines=root%40pedro-h%3A~%24+whoami;%5B+INITIALIZING+SECURITY+PROFILE+...+OK+%5D;Cybersecurity+Analyst+%7C+SOC+Operator;Threat+Hunter+%7C+Blue+Team+Defender;Network+%26+Infrastructure+%7C+Linux+Enthusiast;%5B+MISSION%3A+Security+Engineer+%5D" alt="Typing SVG" />
-
-<br><br>
-
-[![LinkedIn](https://img.shields.io/badge/◈_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedroybk/)&nbsp;&nbsp;[![TryHackMe](https://img.shields.io/badge/◈_TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)&nbsp;&nbsp;![Visitors](https://komarev.com/ghpvc/?username=Yonbisakau7&style=for-the-badge&color=00ff41&label=◈+ACESSOS)
-
-</div>
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## `$ cat /etc/profile.d/pedro.sh`
-
-```bash
-#!/bin/bash
-# ╔══════════════════════════════════════════════════════════════╗
-# ║           PEDRO HENRIQUE — SECURITY ANALYST PROFILE         ║
-# ╚══════════════════════════════════════════════════════════════╝
-
-declare -A PERFIL=(
-  [NOME]="Pedro Henrique"
-  [ROLE]="Cybersecurity Analyst | SOC Operations"
-  [LOCALIZAÇÃO]="Brasil 🇧🇷"
-  [FORMAÇÃO]="Análise e Desenvolvimento de Sistemas"
-  [FOCO]="Segurança da Informação"
-)
-
-declare -a BACKGROUND=(
-  "♦ Background em Auditoria de Processos → Blue Team"
-  "♦ Visão crítica para detalhes e anomalias"
-  "♦ Especialista em identificar padrões suspeitos"
-)
-
-declare -a ATUAÇÃO=(
-  "♦ Threat Hunting & Operações de SOC"
-  "♦ Defesa de Infraestrutura & Redes"
-  "♦ Análise de Logs & Resposta a Incidentes"
-)
-
-OBJETIVO="Engenheiro de Segurança"
-FILOSOFIA="Laboratórios práticos > longos PDFs"
-
-echo "[OK] Perfil carregado com sucesso."
-```
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## `$ ls -la ./em_progresso/`
-
-```
-drwxr-xr-x  pedro  SOC      Linux Avançado & Hardening
-drwxr-xr-x  pedro  SOC      Infraestrutura de Redes
-drwxr-xr-x  pedro  SOC      Script Mapping & Automação
-drwxr-xr-x  pedro  SOC      Threat Intelligence & OSINT
--rw-r--r--  pedro  SOC      [ TARGET ] Security Engineer Role
-```
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## `$ nmap --skills pedro-h`
-
-<br>
-
-**`// Sistemas Operacionais`**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)&nbsp;
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)&nbsp;
-![Rocky Linux](https://img.shields.io/badge/Rocky_Linux-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)&nbsp;
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-
-<br>
-
-**`// Linguagens & Scripting`**
-
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)&nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-<br>
-
-**`// Redes & Infraestrutura`**
-
-![Cisco](https://img.shields.io/badge/Cisco_IOS-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)&nbsp;
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)&nbsp;
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP_Stack-FF6B35?style=for-the-badge&logo=cloudflare&logoColor=white)
-
-<br>
-
-**`// Blue Team & SOC`**
-
-![SOC](https://img.shields.io/badge/SOC_Operations-FF0040?style=for-the-badge&logo=pagerduty&logoColor=white)&nbsp;
-![Threat Hunting](https://img.shields.io/badge/Threat_Hunting-8B0000?style=for-the-badge&logo=virustotal&logoColor=white)&nbsp;
-![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)&nbsp;
-![CyberOps](https://img.shields.io/badge/Cisco_CyberOps-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## `$ tail -f /var/log/github_stats.log`
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Yonbisakau7&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=CCFFCC&border_radius=8&include_all_commits=true&count_private=true" height="170"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yonbisakau7&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=CCFFCC&border_radius=8&langs_count=6" height="170"/>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com/?user=Yonbisakau7&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=FF0040&currStreakLabel=00FF41&sideLabels=88FF88&dates=88FF88&currStreakNum=CCFFCC&sideNums=CCFFCC" width="55%"/>
-
-</div>
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## `$ watch -n 1 git log --oneline`
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yonbisakau7&bg_color=0D1117&color=00FF41&line=00CC33&point=00FF41&area=true&hide_border=true&area_color=003300&title_color=00FF41" width="97%"/>
-
-</div>
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║  "In God we trust. All others, we monitor."               ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:003300,100:0d0d0d&height=120&section=footer&animation=fadeIn" width="100%"/>
-
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <style>
+    .bg{fill:#050505}
+    .t{font:900 64px 'Courier New',monospace;text-anchor:middle}
+    .main{fill:#fff}
+    .r{fill:#ff0033;opacity:.8;animation:g1 2.5s infinite steps(1)}
+    .c{fill:#00ffe1;opacity:.6;animation:g2 2.5s infinite steps(1)}
+    .sub{font:700 18px 'Courier New',monospace;fill:#ff0033;text-anchor:middle;letter-spacing:4px}
+    .term{font:16px 'Courier New',monospace;fill:#00ff41}
+    .cur{animation:b 1s infinite steps(1)}
+    .scan{fill:url(#s);opacity:.25}
+    .bar{fill:#ff0033;animation:sw 4s infinite linear}
+    @keyframes g1{0%,90%,100%{transform:none}92%{transform:translate(-6px,2px)}95%{transform:translate(4px,-3px)}}
+    @keyframes g2{0%,90%,100%{transform:none}92%{transform:translate(6px,-2px)}96%{transform:translate(-4px,3px)}}
+    @keyframes b{50%{opacity:0}}
+    @keyframes sw{0%{transform:translateY(-10px)}100%{transform:translateY(270px)}}
+  </style>
+  <defs>
+    <pattern id="s" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000"/>
+    </pattern>
+  </defs>
+  <rect class="bg" width="900" height="260"/>
+  <text class="term" x="30" y="40">root@fsociety:~# ./hello_friend.sh</text>
+  <text class="t r" x="450" y="140">PEDRO HENRIQUE</text>
+  <text class="t c" x="450" y="140">PEDRO HENRIQUE</text>
+  <text class="t main" x="450" y="140">PEDRO HENRIQUE</text>
+  <text class="sub" x="450" y="185">CYBERSECURITY · SOC · BLUE TEAM</text>
+  <text class="term" x="30" y="235">&gt; hello, friend.<tspan class="cur">█</tspan></text>
+  <rect class="bar" x="0" y="0" width="900" height="2" opacity=".4"/>
+  <rect class="scan" width="900" height="260"/>
+</svg>
+name: profile-art
+on:
+  schedule: [{ cron: "0 3 * * *" }]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#ff0033&color_dots=#161b22,#330000,#660000,#aa0011,#ff0033
+      - run: |
+          mkdir -p profile-3d-contrib && cp dist/snake.svg profile-3d-contrib/
+          git config user.name "fsociety-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A && git commit -m "update profile art" || true
+          git push
